@@ -32,6 +32,24 @@ This repository contains a base developer container configuration that includes 
 4. Wait for the container to build (first time may take a few minutes)
 5. Start developing!
 
+## Example Applications
+
+This repository includes several example applications demonstrating different technologies and package managers:
+
+### Python UV App (`examples/python-uv-app/`)
+FastAPI application using **UV**, the ultra-fast Python package manager written in Rust.
+- 10-100x faster than pip
+- Compatible with pip workflows
+- Modern Python development
+
+### TypeScript NPM App (`examples/typescript-npm-app/`)
+Type-safe Express.js application using **npm** and TypeScript.
+- TypeScript 5.3+ with strict mode
+- Full type safety and IntelliSense
+- ESLint and Prettier configured
+
+See the [examples directory](./examples/) for complete setup instructions and more examples.
+
 ## Ports
 
 The following ports are automatically forwarded:
